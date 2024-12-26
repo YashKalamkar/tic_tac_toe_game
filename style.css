@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    font-style: normal;
+}
+body{
+    background-color: #E0B1CB;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.heading{
+    /* margin-top: 10px; */
+    color: #5E548E;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: 3px solid #231942;
+    /* box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2); */
+    color: #231942;
+    /* background-color: #9F86C0; */
+}
+#reset_btn{
+    font-size: 35px;
+    padding: 0 20px 0 20px;
+    margin-top: 0px;
+    background-color: #5E548E;
+    color: #fff;
+    border: 1px solid #322855;
+    margin-left: 20px;
+}
+#new_btn{
+    font-size: 35px;
+    padding: 0 20px 0 20px;
+    margin-top: 0px;
+    background-color: #5E548E;
+    color: #fff;
+    border: 1px solid #322855;
+    margin-left: 20px;
+}
+.resetNewBtns{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+#msg {
+    color: #231942;
+}
+.hide{
+    display: none;
+}
+
+/* -----------------------LOADER CODE -------------------------------- */
+
+/* ----------------------------------------------------------------- */
